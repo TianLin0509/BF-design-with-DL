@@ -11,6 +11,26 @@ Due to the limitation of file size, we only upload the executable .py files in t
 * load_samples.py : used to load samples of train set or test set.    
 * main_imperfect_CSI.py : simulate with imperfect CSI    
 * main_erfect_CSI.py : simulate with perfect CSI   
+
+****
+## How to use the main.py file
+After download the samples (see following), you can directly run the main_imperfect_CSI.py or main_erfect_CSI.py and then 
+their are three option steps:
+First, you will see
+```
+Please type 0 or 1 in the python console to choose Mode: 
+ 0: train  1: test 
+```
+As you can see, type 0 for training and 1 for testing.
+
+If you choose the train mode, you need to further provide the path of samples. You can easily copy the absolute path
+of the package (`Noticed is the path of the package`), then the program will load the sample data in the package.
+For example, type ```C:\OneDrive\BFNN\sample_set``` in the python console.
+
+If you choose the test mode, you need to further provide the path of the trained model. For example, 
+type ```C:\OneDrive\BFNN\\trained_models\trained_20dB.h5```  in the python console.
+
+
 ****
 ## Samples and trained models
 We have shared our generated samples and trained models by onedrive. Please kindly refer to 
