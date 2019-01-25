@@ -10,11 +10,11 @@ Due to the limitation of file size, we only upload the executable .py files in t
 * BFNN_Model.py : Architecture of the proposed BFNN model.      
 * load_samples.py : used to load samples of train set or test set.    
 * main_imperfect_CSI.py : simulate with imperfect CSI    
-* main_erfect_CSI.py : simulate with perfect CSI   
+* main_perfect_CSI.py : simulate with perfect CSI   
 
 ****
 ## How to use the main.py file
-After download the samples (see following), you can directly run the main_imperfect_CSI.py or main_erfect_CSI.py and then 
+After download the samples (see following), you can directly run the main_imperfect_CSI.py or main_perfect_CSI.py and then 
 their are three option steps:
 First, you will see
 ```
