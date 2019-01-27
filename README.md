@@ -33,7 +33,7 @@ type ```C:\OneDrive\BFNN\\trained_models\trained_20dB.h5```  in the python conso
 
 ****
 ## Samples and trained models
-We have shared our generated samples and trained models by onedrive. Please kindly refer to 
+We have shared our generated samples and trained models by Google Driver. Please kindly refer to https://drive.google.com/drive/folders/1nSk9TftoCMA5iRUqC9GSK5g5a67Q8FRG?usp=sharing
 After download the files, you can straightforwardly run main_erfect_CSI.py or main_imperfect_CSI.py.
 Just easily copy the packages path in the python console, the program can load the data for training or testing.
 Similar operation can help you load our trained model, which is corresponding to the results in our paper.
