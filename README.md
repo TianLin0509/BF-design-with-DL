@@ -44,3 +44,6 @@ information, you can contact me via e-mail.
 My email is `lint17@fudan.edu.cn` and we  welcome discussions. As I'm new to programing, I have tried my best to 
 add more comments in .py files for ease of comprehension. If you have any questions, you can contact me by email.
 Sorry for my English, hopefully this work can be helpful to you.
+
+## One  difference between paper discription and code implementation.
+Since the loss function is associated with perfect CSI. i.e., real(h) and imag(h), to utilize the automatically allocation of batchs in keras, in the code implementation we regard the perfect CSI as the label so that can be easily put into the loss function and compute the loss value. Noticed that it is just for code implementation simplication, the perfect CSI is completely not the real label. Besides, the lambda layer that transfer the output of Dense Unit into a complex-valued vector, is also realized in the loss function. It is equivalent to the discribed BFNN in our paper, but since complex operation is not supported well, so we use this trick to implement it simply. 
