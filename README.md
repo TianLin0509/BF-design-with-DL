@@ -1,7 +1,7 @@
 README
 ===========================
 This is the simulation code for the paper `"Beamforming Design for Large-scale Antenna Arrays with the Help of Deep Learning Approach"` and
-we highly respect reproducible research. 
+we highly respect reproducible research.  The paper is available at **https://arxiv.org/abs/1904.03657**.
 
 
 ****
