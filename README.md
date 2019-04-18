@@ -3,6 +3,9 @@ README
 This is the simulation code for the paper `"Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning"` and
 we highly respect reproducible research.  The paper is available at **https://arxiv.org/abs/1904.03657**.
 
+You needn't to cite this paper if you do not want to do that. However, please star this repo so that more people can see it.
+Thanks for your support in advance.
+
 
 ****
 ## Environment Requirement
