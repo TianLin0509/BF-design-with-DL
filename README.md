@@ -1,10 +1,17 @@
 README
 ===========================
-This is the simulation code for the paper `"Beamforming Design for Large-scale Antenna Arrays with the Help of Deep Learning Approach"` and
+This is the simulation code for the paper `"Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning"` and
 we highly respect reproducible research.  The paper is available at **https://arxiv.org/abs/1904.03657**.
 
 
 ****
+## Environment Requirement
+Tensorflow-gpu > 1.10.0
+
+for new Chinese users, there is a best tutorial to construct a proper GPU environment quickly. 
+
+[中文攻略：搭建GPU深度学习环境](https://blog.csdn.net/weixin_39274659/article/details/89356544)
+
 ## .py file
 Due to the limitation of file size, we only upload the executable .py files in the github repository:     
 * BFNN_Model.py : Architecture of the proposed BFNN model.      
