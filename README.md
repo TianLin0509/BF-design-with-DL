@@ -15,6 +15,9 @@ for new Chinese users, there is a best tutorial to construct a proper GPU enviro
 
 [中文攻略：搭建GPU深度学习环境](https://blog.csdn.net/weixin_39274659/article/details/89356544)
 
+## New revision
+**A simplified version code is provided and can be referred to  [here](https://github.com/TianLin0509/Simplified-BFNN-with-TF2.0).**
+
 ## .py file
 Due to the limitation of file size, we only upload the executable .py files in the github repository:     
 * BFNN_Model.py : Architecture of the proposed BFNN model.      
