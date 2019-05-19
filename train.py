@@ -43,7 +43,7 @@ reduce_lr = callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience
 checkpoint = callbacks.ModelCheckpoint('./temp_trained.h5', monitor='val_loss',
                                        verbose=0, save_best_only=True, mode='min', save_weights_only=True)
 model.fit(x=[H_input, H, SNR], y=H, batch_size=256,
-          epochs=50000, verbose=2, validation_split=0.2, callbacks=[reduce_lr, checkpoint])
+          epochs=50000, verbose=2, validation_split=0.1, callbacks=[reduce_lr, checkpoint])
 
 # -----------------------
 #  Test Your Model
