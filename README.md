@@ -5,7 +5,6 @@ The paper is available in [https://arxiv.org/abs/1904.03657](https://arxiv.org/a
 ## requirements:
 ***
 * Tensorflow >= 1.12.0
-* Scipy
 
 ## Results
 After fork the repo and download the corresponding data sets and trained models, the following performance results can be easily reproduced. (the python codes is only for the blur cerves, and compared cerves should be plot via Matlab codes)
