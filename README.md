@@ -4,7 +4,12 @@ The paper is available in [https://arxiv.org/abs/1904.03657](https://arxiv.org/a
 
 ## requirements:
 ***
-* Tensorflow >= 1.12.0
+* Tensorflow-gpu = 1.12.0
+
+(Tensorflow 1.12.0 is better for debugging, while tensorflow 1.13.0 using cuda10 can run faster)
+
+If you are confused about how to have several different tensorflows and cudas of different versions in one computer, there is a [easy 
+guide](https://zhuyulab.blog.csdn.net/article/details/88779670) may help you  (in Chinese).
 
 ## Results
 After fork the repo and download the corresponding data sets and trained models, the following performance results can be easily reproduced. (the python codes is only for the blur cerves, and compared cerves should be plot via Matlab codes)
