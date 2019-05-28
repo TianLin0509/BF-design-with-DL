@@ -1,6 +1,9 @@
 # BF-design-with-DL
-This is the simulation code for the paper "Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning". 
+This is the simulation code for the paper "**Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning**". 
 The paper is available in [https://arxiv.org/abs/1904.03657](https://arxiv.org/abs/1904.03657)
+
+![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/systemmodel.jpg)
+
 
 ## requirements:
 ***
@@ -15,7 +18,7 @@ guide](https://zhuyulab.blog.csdn.net/article/details/88779670) may help you  (i
 After fork the repo and download the corresponding data sets and trained models, the following performance results can be easily reproduced. (the python codes is only for the blur cerves, and compared cerves should be plot via Matlab codes)
 
 
-![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/PNR.jpg) ![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Lest.jpg)
+![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/PNR.jpg) ![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/Lest.jpg)
 
 ## How to use:
 ***
