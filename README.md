@@ -5,7 +5,7 @@ The paper is available in [https://arxiv.org/abs/1904.03657](https://arxiv.org/a
 ![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/systemmodel.jpg)
 
 
-## requirements:
+## Requirements:
 ***
 * Tensorflow-gpu = 1.12.0
 
@@ -38,6 +38,6 @@ can use the [direct URL](http://oa.ee.tsinghua.edu.cn/dailinglong/publications/c
 
 ## End
 ***
-* Matlab codes of compared algorithms [4，5] can be referred to [this repo](https://github.com/TianLin0509/Hybrid-Beamforming-for-Millimeter-Wave-Systems-Using-the-MMSE-Criterion).
+* Matlab codes of compared algorithms [4，5] can be referred to [this repo](https://github.com/TianLin0509/Hybrid-Beamforming-for-Millimeter-Wave-Systems-Using-the-MMSE-Criterion). In addition, if you are interested in traditional HBF algorithms, you can kindly refer to our previous work [Hybrid Beamforming for Millimeter Wave Systems Using the MMSE Criterion](https://arxiv.org/abs/1902.08343?context=cs.IT), we also provide specific Matlab codes for your reproduction.
 * If you have any questions, you can contact the author via ```lint17@fudan.edu.cn``` for help.
 * Hopefully you can **star** or **fork** this repo if it is helpful. Thank you for your support in advance.
