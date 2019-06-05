@@ -1,6 +1,5 @@
 # BF-design-with-DL
 This is the simulation code for the paper "**Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning**". 
-The paper is available in [https://arxiv.org/abs/1904.03657](https://arxiv.org/abs/1904.03657)
 
 ![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/systemmodel.jpg)
 
