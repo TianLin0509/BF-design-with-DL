@@ -33,6 +33,7 @@ can use the [direct URL](http://oa.ee.tsinghua.edu.cn/dailinglong/publications/c
 * We have provided the data sets in our [google drive](https://drive.google.com/open?id=1nSk9TftoCMA5iRUqC9GSK5g5a67Q8FRG), which can be directly used in our .py files.
 * Trained weights, corresponding to the shown results in the paper, is also provided in the [google drive](https://drive.google.com/open?id=1nSk9TftoCMA5iRUqC9GSK5g5a67Q8FRG).
 
+Due to some readers requiremnets, for Chinese people, the [BaiduYun URL](https://pan.baidu.com/s/1W-L7N4FsS9Aan7FOmkPZyg) is also provided. (password: **z9un**).
 
 
 ## End
