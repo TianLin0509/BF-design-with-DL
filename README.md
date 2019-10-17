@@ -1,5 +1,11 @@
 # BF-design-with-DL
-This is the simulation code for the paper "**Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning**". 
+This is the simulation code for the paper "**Beamforming Design for Large-Scale Antenna Arrays Using Deep Learning**".  This paper is published on IEEE Wireless Communication Letters. 
+
+IEEE link: [https://ieeexplore.ieee.org/document/8847377/](https://ieeexplore.ieee.org/document/8847377/)
+
+Arxiv link: [https://arxiv.org/abs/1904.03657](https://arxiv.org/abs/1904.03657)
+
+**I recommand the pre-print version on arxiv.**
 
 ![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/systemmodel.jpg)
 
