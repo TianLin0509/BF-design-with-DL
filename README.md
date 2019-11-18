@@ -41,6 +41,8 @@ can use the [direct URL](http://oa.ee.tsinghua.edu.cn/dailinglong/publications/c
 
 Due to some readers requiremnets, for Chinese people, the [BaiduYun URL](https://pan.baidu.com/s/1W-L7N4FsS9Aan7FOmkPZyg) is also provided. (password: **z9un**).
 
+Some coding tricks are used to fit the Keras framework, for example, the loss function is written in an unique way, which is described in the issues and have been questioned many times.
+
 
 ## End
 ***
