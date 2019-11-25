@@ -6,7 +6,10 @@ from tensorflow.python.keras.layers import *
 #  Load and generate simulation data
 # ------------------------------------------
 path = 'train_set/example/train'  # the path of the dictionary containing pcsi.mat and ecsi.mat
+# Noticed that this is only a default path containing few samples to test if the program can run successfully
+# you can download provided train sets or trained weights from the given google driver in readme
 H, H_est = mat_load(path)
+
 # use the estimated csi as the input of the BFNN
 H_input = np.expand_dims(np.concatenate([np.real(H_est), np.imag(H_est)], 1), 1)
 # H denotes the perfect csi
@@ -23,7 +26,8 @@ imperfect_CSI = Input(name='imperfect_CSI', shape=(H_input.shape[1:4]), dtype=tf
 perfect_CSI = Input(name='perfect_CSI', shape=(H.shape[1],), dtype=tf.complex64)
 # the SNR is also fed into the BFNN
 SNR_input = Input(name='SNR_input', shape=(1,), dtype=tf.float32)
-temp = Flatten()(imperfect_CSI)
+temp = BatchNormalization()(imperfect_CSI)
+temp = Flatten()(temp)
 temp = BatchNormalization()(temp)
 temp = Dense(256, activation='relu')(temp)
 temp = BatchNormalization()(temp)
@@ -49,7 +53,7 @@ model.fit(x=[H_input, H, SNR], y=H, batch_size=256,
 #  Test Your Model
 # -----------------------
 rate = []
-model.load_weights('./0db.h5')
+# model.load_weights('./0db.h5')
 for snr in range(-20, 25, 5):
     SNR = np.power(10, np.ones([H.shape[0], 1]) * snr / 10)
     y = model.evaluate(x=[H_input, H, SNR], y=H, batch_size=10000)

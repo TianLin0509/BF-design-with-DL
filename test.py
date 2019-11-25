@@ -23,7 +23,8 @@ imperfect_CSI = Input(name='imperfect_CSI', shape=(H_input.shape[1:4]), dtype=tf
 perfect_CSI = Input(name='perfect_CSI', shape=(H.shape[1],), dtype=tf.complex64)
 # the SNR is also fed into the BFNN
 SNR_input = Input(name='SNR_input', shape=(1,), dtype=tf.float32)
-temp = Flatten()(imperfect_CSI)
+temp = BatchNormalization()(imperfect_CSI)
+temp = Flatten()(temp)
 temp = BatchNormalization()(temp)
 temp = Dense(256, activation='relu')(temp)
 temp = BatchNormalization()(temp)
