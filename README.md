@@ -28,7 +28,7 @@ After fork the repo and download the corresponding data sets and trained models,
 ## How to use:
 ***
 * run the train.py to train the model 
-* run the test.py to test the trained model
+* run the test.py to test the trained model 
 * **Due to the space limitation of github, we provide two tiny training and testing data sets only for running the example.**
 
 ## Data sets and trained models
