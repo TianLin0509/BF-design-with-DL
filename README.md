@@ -20,7 +20,7 @@ If you are confused about how to have several different tensorflows and cudas of
 guide](https://zhuyulab.blog.csdn.net/article/details/88779670) may help you  (in Chinese).
 
 ## Results
-After fork the repo and download the corresponding data sets and trained models, the following performance results can be easily reproduced. (the python codes is only for the blur cerves, and compared cerves should be plot via Matlab codes)
+After fork the repo and download the corresponding data sets and trained models, the following performance results can be easily reproduced. (the python codes is only for the blue cerves, and compared cerves should be plot via Matlab codes)
 
 <img src="https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/PNR.jpg" width = "350" height = "300" alt="五连板后走势图" align=center /> <img src="https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/Lest.jpg" width = "350" height = "300" alt="五连板后走势图" align=center />
 
