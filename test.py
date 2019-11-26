@@ -1,6 +1,7 @@
 import numpy as np
 from utils import *
 from tensorflow.python.keras.layers import *
+from matplotlib import pyplot as plt
 
 # ------------------------------------------
 #  Load and generate simulation data
@@ -43,10 +44,15 @@ model.summary()
 rate = []
 # load the trained model
 # You can train the model by train.py or download it from the Google drive provided.
-model.load_weights('./0db.h5')
+model.load_weights('F:\google_driver\BFNN\data sets/20db./20db.h5')
 for snr in range(-20, 25, 5):
     SNR = np.power(10, np.ones([H.shape[0], 1]) * snr / 10)
     y = model.evaluate(x=[H_input, H, SNR], y=H, batch_size=10000)
     rate.append(-y)
 print(rate)
 
+plt.title("The result of BFNN")
+plt.xlabel("SNR(dB)")
+plt.ylabel("Spectral Efficiency")
+plt.plot(range(-20, 25, 5), rate)
+plt.show()
