@@ -9,7 +9,7 @@ Arxiv link: [https://arxiv.org/abs/1904.03657](https://arxiv.org/abs/1904.03657)
 
 ![image](https://github.com/TianLin0509/BF-design-with-DL/blob/master/Figs/systemmodel.jpg)
 
-
+Also, a Chinese-version blog can be referred to [CSDN blog](https://zhuyulab.blog.csdn.net/article/details/104870520)
 ## Requirements:
 ***
 * Tensorflow-gpu = 1.12.0
