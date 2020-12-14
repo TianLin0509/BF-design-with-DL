@@ -26,7 +26,7 @@ def trans_Vrf(temp):
 def Rate_func(temp):
     h, v, SNR_input = temp
     hv = tf.keras.backend.batch_dot(
-        tf.cast(h, tf.complex64), tf.transpose(a=v, perm=[1, 0]))
+        tf.cast(h, tf.complex64), v)
     rate = tf.math.log(tf.cast(1 + SNR_input / Nt * tf.pow(tf.abs(hv), 2), tf.float32)) / tf.math.log(2.0)
     return -rate
 
