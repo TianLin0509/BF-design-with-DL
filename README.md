@@ -14,7 +14,7 @@ Also, a Chinese-version blog can be referred to [CSDN blog](https://zhuyulab.blo
 ***
 * Tensorflow-gpu = 1.12.0
 
-**Now it is supported for tf 2.3.0, just run the file train_v2.py**
+**Now it supports  tf 2.3.0, just run the file train_v2.py**
 
 **Main revision is that the API batch_dot is different from tensorflow 1**
 
