@@ -14,6 +14,10 @@ Also, a Chinese-version blog can be referred to [CSDN blog](https://zhuyulab.blo
 ***
 * Tensorflow-gpu = 1.12.0
 
+**Now it is supported for tf 2.3.0, just run the file train_v2.py**
+
+**Main revision is that the API batch_dot is different from tensorflow 1**
+
 (Tensorflow 1.12.0 is better for debugging, while tensorflow 1.13.0 using cuda10 can run faster)
 
 If you are confused about how to have several different tensorflows and cudas of different versions in one computer, there is a [easy 
