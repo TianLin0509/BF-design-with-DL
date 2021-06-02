@@ -47,6 +47,8 @@ Due to some readers requiremnets, for Chinese people, the [BaiduYun URL](https:/
 
 Some coding tricks are used to fit the Keras framework, for example, the loss function is written in an unique way, which is described in the issues and have been questioned many times.
 
+## Samples Generation
+For many readers requirements, I have updated the matlab code for samples generation. Please kindly refer to the gen_samples.m for details. The codes are based on the work [2].
 
 ## End
 ***
